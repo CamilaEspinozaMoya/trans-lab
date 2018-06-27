@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
   <!-- Primero mi link de bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body id="body_loggin">
+<body id="body_menu">
   <div class="container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
-        </div>
-        <div class="col-sm">
-          <div>
-            <img id="logo_login" class="center" src="docs/imagen.png" alt="Logotipo de translab">
-            <h1> <strong> TRANS-LAB </strong></h1>
-          </div>
-            <form class="login">
-                <div class="form-group">
-                  <label for="exampleInputEmail1"></label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1"></label>
-                  <input type="password" maxlength="8" class="form-control" pattern="[0-9]" id="exampleInputPassword1" placeholder="Contraseña">
-                </div>
-                <button type="submit" class="btn btn-primary iniciar" href="index2.html">INICIAR SESIÓN</button>
-              </form>
-        </div>
-        <div class="col-sm">
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
       </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="menu">
+          <a class="iniciar">VER SALDO</a>
+          <a class="iniciar">CALCULAR TARIFA</a>
+          <a class="iniciar">PERFIL</a>
+          <a class="iniciar">PREGUNTAS FRECUENTES</a>
+        </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
