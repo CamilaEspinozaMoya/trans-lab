@@ -1,1 +1,27 @@
-/* YeyeYeee código aquí */
+@media only screen and (max-width: 600px) {
+body {
+  background: #3E3F41;
+}
+
+h1 {
+  color: #F6A800;
+  text-align: center;
+}
+
+.iniciar {
+  background-color: #F6A800;
+  text-align: center;
+}
+
+#logo_login {
+  width: 50%;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+}
