@@ -8,6 +8,14 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .iniciar {
   background-color: #F6A800;
   text-align: center;

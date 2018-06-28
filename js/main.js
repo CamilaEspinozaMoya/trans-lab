@@ -1,3 +1,4 @@
+/*
 //login con alert
 const go = () => { 
   if (document.form.password.value ==='12345678' &&  document.form.login.value ==='hola@gmail.com'){ 
@@ -7,4 +8,9 @@ const go = () => {
       alert("Porfavor ingrese, correo electrónico y contraseña correctos."); 
     } 
   }
+*/
+
+const user = document.getElementById("exampleInputEmail1").value;
+
+
 
