@@ -39,5 +39,16 @@ img {
   background-color: #DDDEE0;
 }
 
+.user {
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  width: 40%;
+}
+
+.usuario {
+  background-color: #F6A800;
+}
 
 }
